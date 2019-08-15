@@ -23,13 +23,13 @@ public class CreditCardFormView : UIView {
     
     fileprivate var backImage: UIImageView   = UIImageView(frame: .zero)
     fileprivate var brandImageView           = UIImageView(frame: .zero)
-    fileprivate var cardNumber:AKMaskField   = AKMaskField(frame: .zero)
-    fileprivate var cardHolderText:UILabel   = UILabel(frame: .zero)
-    fileprivate var cardHolder:UILabel       = UILabel(frame: .zero)
-    fileprivate var expireDate: AKMaskField  = AKMaskField(frame: .zero)
+    public var cardNumber:AKMaskField   = AKMaskField(frame: .zero)
+    public var cardHolderText:UILabel   = UILabel(frame: .zero)
+    public var cardHolder:UILabel       = UILabel(frame: .zero)
+    public var expireDate: AKMaskField  = AKMaskField(frame: .zero)
     fileprivate var expireDateText: UILabel  = UILabel(frame: .zero)
     fileprivate var backLine: UIView         = UIView(frame: .zero)
-    fileprivate var cvc: AKMaskField         = AKMaskField(frame: .zero)
+    public var cvc: AKMaskField         = AKMaskField(frame: .zero)
     fileprivate var chipImg: UIImageView     = UIImageView(frame: .zero)
     fileprivate var amex                    = false
     
